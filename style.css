@@ -33,10 +33,10 @@ body {
 }
  img {
     padding: 1em 3em;
-    background-color: var(--MediumGrey);
+    /* background-color: var(--MediumGrey); */
     /* height: 35px;
     width: 35px; */
-    border-radius: 50%;
+    /* border-radius: 50%; */
     
     
 
@@ -59,7 +59,7 @@ p {
     padding: 2em 0;
 }
 
- a{
+ a {
 text-decoration:none;
    border-radius: 45%;
    width: 34px;
@@ -92,4 +92,25 @@ button:hover {
     cursor: pointer;
     background-color: var(--White);
     color: var(--Orange);
+}
+
+.modal {
+    width: 450px;
+    height: 400px;
+    background-color:var(--DarkBlue);
+    margin: 100px auto;
+    padding: 4em 4em;
+    border-radius: 2em;
+}
+
+.modal img{
+    height: 150px;
+}
+
+.modal h2 {
+    text-align: center;
+}
+
+.modal p {
+    text-align: center;
 }
