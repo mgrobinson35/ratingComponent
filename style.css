@@ -101,6 +101,15 @@ button:hover {
     margin: 100px auto;
     padding: 4em 4em;
     border-radius: 2em;
+    /* display: none; */
+    position: absolute;
+    z-index: 1;
+    left: 1;
+    top: 0;
+}
+
+.hidden {
+    display: none;
 }
 
 .modal img{
